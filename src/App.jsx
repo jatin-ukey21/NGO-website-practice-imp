@@ -18,18 +18,7 @@ export default function App() {
     else if (aboutInView) setActiveSection('about');
     else if (volunteerInView) setActiveSection('volunteer');
   }, [heroInView, aboutInView, volunteerInView]);
-  // useEffect(() => {
-  //   const sectionStates = [
-  //     { id: 'hero', inView: heroInView },
-  //     { id: 'about', inView: aboutInView },
-  //     { id: 'volunteer', inView: volunteerInView },
-  //   ];
 
-  //   const currentlyVisible = sectionStates.find((s) => s.inView);
-  //   if (currentlyVisible) {
-  //     setActiveSection(currentlyVisible.id);
-  //   }
-  // }, [heroInView, aboutInView, volunteerInView]);
 
 
   const scrollToSection = (id) => {
