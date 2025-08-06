@@ -67,7 +67,6 @@ src/
 ├── components/        # Reusable React components
 ├── App.jsx            # Main entry component
 ├── main.jsx           # App entry point
-tailwind.config.js     # Tailwind v4 configuration
 vite.config.js         # Vite build config with @tailwindcss/vite
 ```
 
@@ -88,24 +87,6 @@ npm install
 # 4. Start development server
 npm run dev
 ```
-
----
-
-## 🌐 Deployment (Vercel)
-
-Make sure to push your code (excluding `node_modules`) to GitHub and then import the repo into [Vercel](https://vercel.com/). Vercel automatically installs dependencies and builds your project.
-
-If using `@tailwindcss/vite`, don't forget:
-
-```bash
-npm install -D @tailwindcss/vite
-```
-
----
-
-## 📸 Preview
-
-![Preview Screenshot](link-to-preview-screenshot.png)
 
 ---
 
