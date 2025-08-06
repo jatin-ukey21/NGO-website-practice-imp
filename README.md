@@ -90,24 +90,6 @@ npm run dev
 
 ---
 
-## 🌐 Deployment (Vercel)
-
-Make sure to push your code (excluding `node_modules`) to GitHub and then import the repo into [Vercel](https://vercel.com/). Vercel automatically installs dependencies and builds your project.
-
-If using `@tailwindcss/vite`, don't forget:
-
-```bash
-npm install -D @tailwindcss/vite
-```
-
----
-
-## 📸 Preview
-
-![Preview Screenshot](link-to-preview-screenshot.png)
-
----
-
 ## 👨‍💻 Author
 
 - [Jatin Ukey](https://github.com/jatin-ukey21)
