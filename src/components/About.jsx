@@ -42,7 +42,7 @@ const About = () => {
         {/* Story Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="space-y-6">
-            <div className="bg-white rounded-2xl p-8 shadow-lg border">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Story</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
                 What started as a small community initiative has grown into a movement that spans across 
@@ -102,7 +102,7 @@ const About = () => {
             {values.map((value, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl p-6 shadow-lg border hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
+                className="bg-white rounded-xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
               >
                 <div className="flex items-center justify-center mb-4">
                   <div className="bg-gradient-to-br from-emerald-500 to-blue-600 p-3 rounded-full group-hover:scale-110 transition-transform duration-300">
