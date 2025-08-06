@@ -30,8 +30,8 @@ export default function App() {
     <div className="scroll-smooth">
       <Header activeSection={activeSection} onNavigate={scrollToSection} />
       <main>
-        <div ref={heroRef} id="hero">
-          <Hero />
+        <div ref={heroRef}  id="hero">
+          <Hero onNavigate={scrollToSection} />
         </div>
 
         <div ref={aboutRef} id="about">

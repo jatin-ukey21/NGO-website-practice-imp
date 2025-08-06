@@ -204,7 +204,7 @@ const VolunteerForm = () => {
               </ul>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-lg border">
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
               <img
                 src="https://images.pexels.com/photos/6646919/pexels-photo-6646919.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
                 alt="Volunteers in action"
