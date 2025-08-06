@@ -67,7 +67,6 @@ src/
 ├── components/        # Reusable React components
 ├── App.jsx            # Main entry component
 ├── main.jsx           # App entry point
-tailwind.config.js     # Tailwind v4 configuration
 vite.config.js         # Vite build config with @tailwindcss/vite
 ```
 
